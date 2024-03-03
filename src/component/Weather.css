@@ -58,7 +58,7 @@
     color: rgb(255, 255, 255);
     /* border:none; */
     border:solid white 3px;
-    background-color: rgb(121, 121, 121);
+    background-color: rgb(36, 71, 146);
     /* background-color: rgba(240, 248, 255, 0); */
     outline: none;
     border-radius: 30px;
@@ -173,6 +173,16 @@
     position: absolute;
     top:55%;
     left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.copyright{
+    color: rgb(255, 255, 255);
+    font-size: 2vmin;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+    top: 90%;
     transform: translate(-50%,-50%);
 }
 
@@ -292,10 +302,7 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 25px;
     }
+    .copyright{
+        display: none;
+    }
 }
-
-
-
-
-
-
